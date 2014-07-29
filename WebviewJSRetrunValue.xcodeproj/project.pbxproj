@@ -22,6 +22,7 @@
 		1A741367198645990050237B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A741346198645990050237B /* UIKit.framework */; };
 		1A74136F198645990050237B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A74136D198645990050237B /* InfoPlist.strings */; };
 		1A741371198645990050237B /* WebviewJSRetrunValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A741370198645990050237B /* WebviewJSRetrunValueTests.m */; };
+		1AD167B919872D4000F1F32D /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 1AD167B819872D4000F1F32D /* test.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1A74136C198645990050237B /* WebviewJSRetrunValueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebviewJSRetrunValueTests-Info.plist"; sourceTree = "<group>"; };
 		1A74136E198645990050237B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A741370198645990050237B /* WebviewJSRetrunValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebviewJSRetrunValueTests.m; sourceTree = "<group>"; };
+		1AD167B819872D4000F1F32D /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		1A741348198645990050237B /* WebviewJSRetrunValue */ = {
 			isa = PBXGroup;
 			children = (
+				1AD167B819872D4000F1F32D /* test.html */,
 				1A741351198645990050237B /* AppDelegate.h */,
 				1A741352198645990050237B /* AppDelegate.m */,
 				1A741354198645990050237B /* Main_iPhone.storyboard */,
@@ -234,6 +237,7 @@
 				1A741359198645990050237B /* Main_iPad.storyboard in Resources */,
 				1A74135E198645990050237B /* Images.xcassets in Resources */,
 				1A741356198645990050237B /* Main_iPhone.storyboard in Resources */,
+				1AD167B919872D4000F1F32D /* test.html in Resources */,
 				1A74134D198645990050237B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +474,7 @@
 				1A741376198645990050237B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A741377198645990050237B /* Build configuration list for PBXNativeTarget "WebviewJSRetrunValueTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				1A741379198645990050237B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
